@@ -1,0 +1,13 @@
+@relation iris
+
+@attribute plantID 	INTEGER
+@attribute sepallength	REAL
+@attribute sepalwidth 	REAL
+@attribute petallength 	REAL
+@attribute petalwidth	REAL
+@attribute class 	{iris-setosa,iris-versicolor,iris-virginica}
+
+@data
+3,5.4,3.4,1.5,0.4,iris-setosa
+15,6.8,2.8,4.8,1.4,iris-versicolor
+15,6.8,2.8,4.8,1.4,iris-versicolor
